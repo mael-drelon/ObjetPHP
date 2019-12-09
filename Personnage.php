@@ -28,6 +28,6 @@ class Personnage
 
     public function alive()
     {
-       $ObjetPersonnage = $this->_alive;
+       
     }
 }
