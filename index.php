@@ -5,7 +5,7 @@
 <head>
 </head>
 <body>
-<?php echo "<h1>You encounter an foe!</h1>";
+<?php echo "<h1>You encounter a foe!</h1>";
 $Personnage1 = new Personnage(250,25,"Mimos");
 $Personnage2 = new Personnage(200,10,"Banshee");
 

@@ -23,11 +23,11 @@ class Personnage
     public function Attaquer($ObjetPersonnage)
     {
         echo "<p>".$this->_pseudo." attaque ".$ObjetPersonnage->getNom();
-        $this->_vie = $this->_vie-50;
+        
     }
 
     public function alive()
     {
-       
+      
     }
 }
