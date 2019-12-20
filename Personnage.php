@@ -22,12 +22,24 @@ class Personnage
     
     public function Attaquer($ObjetPersonnage)
     {
+        $this->_force - $ObjetPersonnage->_vie;
         echo "<p>".$this->_pseudo." attaque ".$ObjetPersonnage->getNom();
-        
+        echo "<p>".$ObjetPersonnage->getNom()." à encore ".$ObjetPersonnage->_vie." HP. ";
     }
 
     public function alive()
     {
       
     }
+
+    public function damaged()
+    {
+        
+    }
+
+    public function getNom()
+    {
+        return $this->_pseudo;
+    }
+
 }

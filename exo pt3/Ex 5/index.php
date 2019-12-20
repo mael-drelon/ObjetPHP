@@ -1,9 +1,8 @@
-<?php require("User.php"); ?>
+<?php require("Personne.php"); ?>
 <?php
 
-  $personne1 = new personne(100,'Julien');
-  $personne2 = new personne(100,'Dummy');
-  $personne1->AfficherPersonnage();
-  $personne2->AfficherPersonnage();
-  $personne1->Attaquer($personne2);
+  $Personne1 = new Personne(1);
+  $Personne2 = new Personne(2);
+  $Personne1->AfficherPersonnage();
+  $Personne2->AfficherPersonnage();
   ?>

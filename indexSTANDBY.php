@@ -13,8 +13,7 @@ $Personnage1->AfficherPersonnage();
 $Personnage2->AfficherPersonnage();
 
 echo "<p>Lancement du combat</p>";
-while( $Personnage1->alive() && $Personnage2->alive())
-{
+
     if(rand(0, 1))
     {
         $Personnage1->Attaquer($Personnage2);
@@ -23,7 +22,7 @@ while( $Personnage1->alive() && $Personnage2->alive())
     {
         $Personnage2->Attaquer($Personnage1);
     }
-}
+
 
 
 ?>
