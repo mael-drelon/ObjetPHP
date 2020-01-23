@@ -1,3 +1,4 @@
+<?php require("Liste.php"); ?>
 <?php require("User.php"); ?>
 <?php require("Personnage.php"); ?>
 
